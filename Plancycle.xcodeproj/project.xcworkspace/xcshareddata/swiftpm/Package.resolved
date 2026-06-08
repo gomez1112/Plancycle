@@ -1,0 +1,51 @@
+{
+  "originHash" : "05e6630cbea51ab7ce7b374e1a620de19d7ecd8fef669e616f4ba5b56d2193ed",
+  "pins" : [
+    {
+      "identity" : "ezcharts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gomez1112/EZCharts",
+      "state" : {
+        "revision" : "0cd6d2840dbf74666a89a7170103df7fb1d5af21",
+        "version" : "0.2.4"
+      }
+    },
+    {
+      "identity" : "ezswiftdata",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gomez1112/EZSwiftData",
+      "state" : {
+        "revision" : "0b5dbfb6bcd6f5b5f2d9f3c86bb78d7a72f93a0b",
+        "version" : "1.1.4"
+      }
+    },
+    {
+      "identity" : "flexstore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gomez1112/FlexStore",
+      "state" : {
+        "revision" : "27338bd0020b216c74a011a4fb520784ae392a1c",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "gentlenotification",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gomez1112/GentleNotification",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8ff5a73598253451bff3aa4de1b25bfaada45701"
+      }
+    },
+    {
+      "identity" : "onboardingkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gomez1112/OnboardingKit",
+      "state" : {
+        "revision" : "974a6e3a34d66c743344fa3e823fb5a69d0988e0",
+        "version" : "1.5.2"
+      }
+    }
+  ],
+  "version" : 3
+}
