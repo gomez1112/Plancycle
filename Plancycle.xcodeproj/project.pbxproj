@@ -109,6 +109,76 @@
 			);
 			target = CCF2D4AC2FD6402600DB4A3C /* PlancycleWidgetsExtension */;
 		};
+		CCF2D5F42FD6481400DB4A3C /* Exceptions for "Plancycle" folder in "PlancycleWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Decisions/DecisionImpact.swift,
+				Models/Decisions/DecisionOutcomeInsightSlice.swift,
+				Models/Decisions/DecisionRating.swift,
+				Models/Decisions/DecisionRatingInsightSlice.swift,
+				Models/Decisions/ProjectDecisionEntry.swift,
+				Models/Design/Palette.swift,
+				Models/Enums/DueDateStrategy.swift,
+				Models/Enums/ProjectKind.swift,
+				Models/Enums/ProjectStatus.swift,
+				Models/Enums/TaskPriority.swift,
+				Models/Insights/CategoryInsightSlice.swift,
+				Models/Insights/InsightStat.swift,
+				Models/Insights/WorkloadPoint.swift,
+				Models/People/Person.swift,
+				Models/People/RelationshipSignal.swift,
+				Models/Projects/Project.swift,
+				Models/Projects/ProjectCategory.swift,
+				Models/Projects/ProjectDebrief.swift,
+				Models/Projects/ProjectHealthLevel.swift,
+				Models/Projects/ProjectHealthSnapshot.swift,
+				Models/Projects/ProjectProgressPoint.swift,
+				Models/Tags/Tag.swift,
+				Models/Tasks/Attachment.swift,
+				Models/Tasks/ProjectSubtask.swift,
+				Models/Tasks/ProjectTask.swift,
+				Models/Tasks/StandaloneTodo.swift,
+				Models/Timeline/ProjectTimelineDayGroup.swift,
+				Models/Timeline/ProjectTimelineItem.swift,
+				Models/Timeline/ProjectTimelineKind.swift,
+			);
+			target = CCF2D4AC2FD6402600DB4A3C /* PlancycleWidgetsExtension */;
+		};
+		CCF2D5F52FD6481400DB4A3C /* Exceptions for "Plancycle" folder in "PlancycleWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Decisions/DecisionImpact.swift,
+				Models/Decisions/DecisionOutcomeInsightSlice.swift,
+				Models/Decisions/DecisionRating.swift,
+				Models/Decisions/DecisionRatingInsightSlice.swift,
+				Models/Decisions/ProjectDecisionEntry.swift,
+				Models/Design/Palette.swift,
+				Models/Enums/DueDateStrategy.swift,
+				Models/Enums/ProjectKind.swift,
+				Models/Enums/ProjectStatus.swift,
+				Models/Enums/TaskPriority.swift,
+				Models/Insights/CategoryInsightSlice.swift,
+				Models/Insights/InsightStat.swift,
+				Models/Insights/WorkloadPoint.swift,
+				Models/People/Person.swift,
+				Models/People/RelationshipSignal.swift,
+				Models/Projects/Project.swift,
+				Models/Projects/ProjectCategory.swift,
+				Models/Projects/ProjectDebrief.swift,
+				Models/Projects/ProjectHealthLevel.swift,
+				Models/Projects/ProjectHealthSnapshot.swift,
+				Models/Projects/ProjectProgressPoint.swift,
+				Models/Tags/Tag.swift,
+				Models/Tasks/Attachment.swift,
+				Models/Tasks/ProjectSubtask.swift,
+				Models/Tasks/ProjectTask.swift,
+				Models/Tasks/StandaloneTodo.swift,
+				Models/Timeline/ProjectTimelineDayGroup.swift,
+				Models/Timeline/ProjectTimelineItem.swift,
+				Models/Timeline/ProjectTimelineKind.swift,
+			);
+			target = CCF2D5332FD6458C00DB4A3C /* PlancycleWatch Watch App */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -116,6 +186,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				CCF2D4A82FD6370B00DB4A3C /* Exceptions for "Plancycle" folder in "Plancycle" target */,
+				CCF2D5F42FD6481400DB4A3C /* Exceptions for "Plancycle" folder in "PlancycleWidgetsExtension" target */,
+				CCF2D5F52FD6481400DB4A3C /* Exceptions for "Plancycle" folder in "PlancycleWatch Watch App" target */,
 			);
 			path = Plancycle;
 			sourceTree = "<group>";
