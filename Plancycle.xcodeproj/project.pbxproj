@@ -18,6 +18,8 @@
 		CCF2D56B2FD6464D00DB4A3C /* OnboardingKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCF2D56A2FD6464D00DB4A3C /* OnboardingKit */; };
 		CCF2D56E2FD6466D00DB4A3C /* EZCharts in Frameworks */ = {isa = PBXBuildFile; productRef = CCF2D56D2FD6466D00DB4A3C /* EZCharts */; };
 		CCF2D5702FD6466D00DB4A3C /* EZCharts3D in Frameworks */ = {isa = PBXBuildFile; productRef = CCF2D56F2FD6466D00DB4A3C /* EZCharts3D */; };
+		CCF2D6C42FD651A500DB4A3C /* plancycleIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CCF2D6C32FD651A500DB4A3C /* plancycleIcon.icon */; };
+		CCF2D6C52FD651A500DB4A3C /* plancycleIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CCF2D6C32FD651A500DB4A3C /* plancycleIcon.icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,7 @@
 		CCF2D5342FD6458C00DB4A3C /* PlancycleWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlancycleWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF2D5402FD6458D00DB4A3C /* PlancycleWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlancycleWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF2D54A2FD6458D00DB4A3C /* PlancycleWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlancycleWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF2D6C32FD651A500DB4A3C /* plancycleIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = plancycleIcon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -280,6 +283,7 @@
 		CCF2D4832FD635C600DB4A3C = {
 			isa = PBXGroup;
 			children = (
+				CCF2D6C32FD651A500DB4A3C /* plancycleIcon.icon */,
 				CCF2D48E2FD635C600DB4A3C /* Plancycle */,
 				CCF2D4B32FD6402600DB4A3C /* PlancycleWidgets */,
 				CCF2D4F92FD641C000DB4A3C /* PlancycleTests */,
@@ -531,6 +535,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF2D6C42FD651A500DB4A3C /* plancycleIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +557,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF2D6C52FD651A500DB4A3C /* plancycleIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,8 +770,9 @@
 		CCF2D4982FD635C700DB4A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = plancycleIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Plancycle/Plancycle.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -813,8 +820,9 @@
 		CCF2D4992FD635C700DB4A3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = plancycleIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Plancycle/Plancycle.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
